@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1E58E726221E742900EFB0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E58E725221E742900EFB0B0 /* AppDelegate.swift */; };
-		1E58E728221E742900EFB0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E58E727221E742900EFB0B0 /* ViewController.swift */; };
 		1E58E72B221E742900EFB0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E58E729221E742900EFB0B0 /* Main.storyboard */; };
 		1E58E72E221E742900EFB0B0 /* getApiformZoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E58E72C221E742900EFB0B0 /* getApiformZoo.xcdatamodeld */; };
 		1E58E730221E742B00EFB0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E58E72F221E742B00EFB0B0 /* Assets.xcassets */; };
 		1E58E733221E742B00EFB0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E58E731221E742B00EFB0B0 /* LaunchScreen.storyboard */; };
+		1E58E73B221E758700EFB0B0 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E58E73A221E758700EFB0B0 /* FirstPage.swift */; };
+		1E58E73D221E776800EFB0B0 /* ApiStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E58E73C221E776800EFB0B0 /* ApiStruct.swift */; };
+		1E6276612221A611001A706F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6276602221A611001A706F /* Cell.swift */; };
+		1EDED9702221D5B7002D3A81 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDED96F2221D5B7002D3A81 /* DetailVC.swift */; };
+		1EDED99522232B47002D3A81 /* illust-404.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDED99422232B47002D3A81 /* illust-404.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E58E722221E742900EFB0B0 /* getApiformZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getApiformZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E58E725221E742900EFB0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E58E727221E742900EFB0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E58E72A221E742900EFB0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E58E72D221E742900EFB0B0 /* getApiformZoo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = getApiformZoo.xcdatamodel; sourceTree = "<group>"; };
 		1E58E72F221E742B00EFB0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E58E732221E742B00EFB0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E58E734221E742B00EFB0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E58E73A221E758700EFB0B0 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		1E58E73C221E776800EFB0B0 /* ApiStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiStruct.swift; sourceTree = "<group>"; };
+		1E6276602221A611001A706F /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		1EDED96F2221D5B7002D3A81 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		1EDED99422232B47002D3A81 /* illust-404.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "illust-404.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 			children = (
 				1E58E724221E742900EFB0B0 /* getApiformZoo */,
 				1E58E723221E742900EFB0B0 /* Products */,
+				1EDED99422232B47002D3A81 /* illust-404.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +65,10 @@
 		1E58E724221E742900EFB0B0 /* getApiformZoo */ = {
 			isa = PBXGroup;
 			children = (
+				1E58E73F221E77B700EFB0B0 /* Api */,
+				1E58E73E221E778800EFB0B0 /* AllViewController */,
 				1E58E725221E742900EFB0B0 /* AppDelegate.swift */,
-				1E58E727221E742900EFB0B0 /* ViewController.swift */,
+				1E6276602221A611001A706F /* Cell.swift */,
 				1E58E729221E742900EFB0B0 /* Main.storyboard */,
 				1E58E72F221E742B00EFB0B0 /* Assets.xcassets */,
 				1E58E731221E742B00EFB0B0 /* LaunchScreen.storyboard */,
@@ -65,6 +76,23 @@
 				1E58E72C221E742900EFB0B0 /* getApiformZoo.xcdatamodeld */,
 			);
 			path = getApiformZoo;
+			sourceTree = "<group>";
+		};
+		1E58E73E221E778800EFB0B0 /* AllViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E58E73A221E758700EFB0B0 /* FirstPage.swift */,
+				1EDED96F2221D5B7002D3A81 /* DetailVC.swift */,
+			);
+			path = AllViewController;
+			sourceTree = "<group>";
+		};
+		1E58E73F221E77B700EFB0B0 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				1E58E73C221E776800EFB0B0 /* ApiStruct.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +156,7 @@
 				1E58E733221E742B00EFB0B0 /* LaunchScreen.storyboard in Resources */,
 				1E58E730221E742B00EFB0B0 /* Assets.xcassets in Resources */,
 				1E58E72B221E742900EFB0B0 /* Main.storyboard in Resources */,
+				1EDED99522232B47002D3A81 /* illust-404.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E58E72E221E742900EFB0B0 /* getApiformZoo.xcdatamodeld in Sources */,
-				1E58E728221E742900EFB0B0 /* ViewController.swift in Sources */,
+				1E58E73D221E776800EFB0B0 /* ApiStruct.swift in Sources */,
+				1E6276612221A611001A706F /* Cell.swift in Sources */,
 				1E58E726221E742900EFB0B0 /* AppDelegate.swift in Sources */,
+				1E58E73B221E758700EFB0B0 /* FirstPage.swift in Sources */,
+				1EDED9702221D5B7002D3A81 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDCGR4ZUEW;
 				INFOPLIST_FILE = getApiformZoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDCGR4ZUEW;
 				INFOPLIST_FILE = getApiformZoo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
